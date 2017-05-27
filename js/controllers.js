@@ -7,20 +7,24 @@ angular.module('DuckieTorrent.controllers', ['DuckieTorrent.torrent'])
         $scope.success = false;
 
         var pimpValues = {
-            'gui.pro_installed': true,
-            'offers.left_rail_offer_enabled': false,
-            'offers.sponsored_torrent_offer_enabled': false,
-            'show_bundles_tab': false,
-            'offers.featured_content_badge_enabled': false,
             'gui.show_plus_upsell_nodes': false,
-            'gui.show_gate_notify': false,
-            'gui.show_plus_upsell': false,
-            'gui.show_plus_av_upsell': false,
-            'offers.content_offer_autoexec': false,
+            'offers.left_rail_offer_enabled': false,
             'offers.featured_content_notifications_enabled': false,
             'offers.featured_content_rss_enabled': false,
-            'offers.upgrade_panel': false,
-            'offers.upgrade_toolbar': false
+            'gui.show_gate_notify': false,
+            'gui.show_plus_av_upsell': false,
+            'gui.show_plus_conv_upsell': false,
+            'offers.content_offer_url': '',
+            'offers.featured_content_badge_enabled': false,
+            'offers.content_offer_autoexec': false,
+            'bt.enable_pulse': false,
+            'distributed_share.enable': false,
+            'gui.show_notorrents_node': false,
+            'gui.show_plus_upsell': false,
+            'offers.sponsored_torrent_offer_enabled': false,
+            'sponsored_torrent_offer_enabled': false,
+            'left_rail_offer': false,
+            'show_bundles_tab': false
         };
 
         $scope.Pair = function() {
