@@ -24,7 +24,9 @@ angular.module('DuckieTorrent.controllers', ['DuckieTorrent.torrent'])
             'offers.sponsored_torrent_offer_enabled': false,
             'sponsored_torrent_offer_enabled': false,
             'left_rail_offer': false,
-            'show_bundles_tab': false
+            'show_bundles_tab': false,
+            'offers.upgrade_panel': false,
+            'offers.upgrade_toolbar': false
         };
 
         $scope.Pair = function() {
